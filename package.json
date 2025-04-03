@@ -1,0 +1,22 @@
+{
+  "name": "playwright-fixture-workshop",
+  "version": "1.0.0",
+  "description": "In this workshop you will learn to create and use fixtures for better readable and scalable tests with Playwright.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SixDollarMan/playwright-fixture-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SixDollarMan/playwright-fixture-workshop/issues"
+  },
+  "homepage": "https://github.com/SixDollarMan/playwright-fixture-workshop#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.10"
+  }
+}
