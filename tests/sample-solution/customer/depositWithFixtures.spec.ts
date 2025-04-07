@@ -1,4 +1,4 @@
-import { test, expect } from "../../fixtures/base";
+import { test, expect } from "../../../fixtures/sample-solution/base";
 
 test.describe('Banking Software Test - Customer View (with Fixtures)', () => {
   test.beforeEach(async ({ loginPage }) => {

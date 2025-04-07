@@ -1,8 +1,8 @@
 import { test as baseTest } from '@playwright/test'
-import { LoginPage } from '../page-objects/login.page'
-import { DepositPage } from '../page-objects/deposit.page'
-import { TransactionsPage } from '../page-objects/transactions.page'
-import { WithdrawlPage } from '../page-objects/withdrawl.page'
+import { LoginPage } from '../../page-objects/sample-solution/login.page'
+import { DepositPage } from '../../page-objects/sample-solution/deposit.page'
+import { TransactionsPage } from '../../page-objects/sample-solution/transactions.page'
+import { WithdrawlPage } from '../../page-objects/sample-solution/withdrawl.page'
 
 interface TestFixtures {
   // Add any custom fixtures here

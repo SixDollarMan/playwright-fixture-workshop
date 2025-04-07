@@ -1,7 +1,7 @@
 import test, { expect } from "@playwright/test";
-import { LoginPage } from "../../page-objects/login.page";
-import { TransactionsPage } from "../../page-objects/transactions.page";
-import { DepositPage } from "../../page-objects/deposit.page";
+import { LoginPage } from "../../../page-objects/sample-solution/login.page";
+import { TransactionsPage } from "../../../page-objects/sample-solution/transactions.page";
+import { DepositPage } from "../../../page-objects/sample-solution/deposit.page";
 
 test.describe('Banking Software Test - Customer View', () => {
   test.beforeEach(async ({ page }) => {
