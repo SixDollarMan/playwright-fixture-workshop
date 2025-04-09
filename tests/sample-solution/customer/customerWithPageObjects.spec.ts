@@ -3,7 +3,7 @@ import { LoginPage } from "../../../page-objects/sample-solution/login.page";
 import { TransactionsPage } from "../../../page-objects/sample-solution/transactions.page";
 import { DepositPage } from "../../../page-objects/sample-solution/deposit.page";
 
-test.describe('Banking Software Test - Customer View', () => {
+test.describe('Banking Software Test - Customer View (with PageObjects)', () => {
   test.beforeEach(async ({ page }) => {
     const loginPage = new LoginPage(page)
     await loginPage.goto();
